@@ -53,7 +53,7 @@ class RecetaCard extends StatelessWidget {
                       '${receta.cocina} - ${receta.dificultad} - ${receta.tiempoTotal} min',
                       style: TextStyle(
                         fontSize: 11.5,
-                        color: Colors.grey.shade600,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
                         ),
                     ),
                   ],
